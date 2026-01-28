@@ -29,6 +29,8 @@ p {
 
 a {
     color: var(--link-colour);
+    -user-select: text; /* links should always be highlightable via keyboard */
+    -webkit-user-select: text; 
 }
 
 .display-font{
@@ -81,12 +83,6 @@ a {
 }
 
 .nav-link {
-    /*
-        I hate you firefox...
-        I just wanted the links to not be underlined but every property I threw at you,
-        You showed in the css active properties but never applied it
-        I shall leave the property there as a warning to all other browsers
-     */
     text-decoration: none !important;
     transition: 0.4s all ease-in-out;
     color: var(--text-primary-color);
