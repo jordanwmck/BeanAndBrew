@@ -29,7 +29,7 @@ p {
 
 a {
     color: var(--link-colour);
-    -user-select: text; /* links should always be highlightable via keyboard */
+    user-select: text; /* links should always be highlightable via keyboard */
     -webkit-user-select: text; 
 }
 
@@ -39,7 +39,7 @@ a {
 
 /* Some browsers require that you specifically state an object is selectable */
 .selectable {
-    -user-select: text;
+    user-select: text;
     -webkit-user-select: text; /* vscode doesnt like this because its non standard for W3C but apple requires it for safari */
 }
 
@@ -71,7 +71,6 @@ a {
 .nav-logo {
     margin-left: 25px;
     margin-right: 50px;
-    width: 25px;
     height: auto;
 }
 
@@ -256,7 +255,7 @@ a {
  */
 
 .form-container {
-    margin: 40px 0px;
+    margin: 40px 0;
 }
 
 .form-element{
@@ -376,7 +375,7 @@ a {
         border-radius: 40px;
         background: none;
         border: none;
-        margin: 10px 0px;
+        margin: 10px 0;
         box-sizing: border-box;
         padding: 20px 0;
     }
