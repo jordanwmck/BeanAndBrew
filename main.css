@@ -44,6 +44,29 @@ a {
 }
 
 /*
+ *  My protest against W3C
+ *  They wouldn't let me use h1-h3.
+ *  That's fine but they cannot expect me not to protest not being able to use the lazy
+ *  way of making text bigger.
+ */
+
+.defacto-h1 {
+    font-size: 2em;
+    font-weight: bold;
+}
+
+.defacto-h2 {
+    font-size: 1.5em;
+    font-weight: bold;
+}
+
+.defacto-h3 {
+    font-size: 1.3em;
+    font-weight: bold;
+}
+
+
+/*
  *  Navigation menu section
  */
 
