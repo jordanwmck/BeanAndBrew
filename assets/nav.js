@@ -6,8 +6,8 @@ menuState.addEventListener('click', () => {
 })
 
 document.addEventListener('keydown', (e) => {
-    if(e.key === 'Escape'){
-        if (navLinks.classList.contains('active')){
+    if (e.key === 'Escape') {
+        if (navLinks.classList.contains('active')) {
             navLinks.classList.remove('active')
             menuState.focus()
         }

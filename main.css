@@ -75,6 +75,7 @@ a {
 }
 
 .nav-links {
+    z-index: 1001;
     display: inline-flex;
     transition: 0.4s all ease-in-out;
     margin: 0;
